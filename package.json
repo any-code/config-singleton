@@ -1,0 +1,33 @@
+{
+  "name": "config-singleton",
+  "version": "1.0.0",
+  "description": "common JS module that requires a JSON file and provides a mutable config singleton that can be required everywhere else",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodeunit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/any-code/config-singleton.git"
+  },
+  "keywords": [
+    "config",
+    "configuration",
+    "JSON",
+    "singleton",
+    "mutable"
+  ],
+  "author": "Lee Tagg <lee@anycode.io>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/any-code/config-singleton/issues"
+  },
+  "homepage": "https://github.com/any-code/config-singleton#readme",
+  "devDependencies": {
+    "nodeunit": "^0.9.1",
+    "sinon": "^1.15.4"
+  },
+  "dependencies": {
+    "javascript-object-paraphernalia": "^1.0.1"
+  }
+}
